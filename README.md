@@ -391,6 +391,6 @@ Implemente os algoritmos acima, troque os parâmetros, teste. Implemente
 uma das sugestões em 4. Entenda e aprenda.
 
 ------------------------------------------------------------------------
-``` {.python}
-    sabedoria.insert(0, "A maturidade vem com os obstáculos superados.")
+```
+   "A maturidade vem com os obstáculos superados."
 ```
