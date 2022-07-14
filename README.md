@@ -1,5 +1,8 @@
 Repositório de programas e scripts utilitários para problemas aplicáveis à Sequência de Solomon Golomb.
 
+Inspired by Problema #10049 Self-describing Sequence in https://onlinejudge.org
+(https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=990)
+
 # Sequência Auto Descritiva de Solomon Golomb
 
 Em homenagem ao matemático, engenheiro e professor Solomon Wolf Golomb,
