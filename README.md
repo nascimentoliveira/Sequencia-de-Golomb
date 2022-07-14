@@ -41,7 +41,7 @@ Sequência de Golomb = (1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7,
 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 11, 11, 11, 11,
 11, 12, 12, 12, 12, 12, 12, 13, \...)
 
-# 1) Gerador da lista dos n primeiros números da Sequência de Golomb
+# 1) Gerador da lista dos $n$ primeiros números da Sequência de Golomb
 Podemos desenvolver uma função, utilizando Python 3 para gerar uma lista
 com os primeiros $n$ valores da sequência.
 
@@ -105,7 +105,7 @@ gerar a lista completa?**
 
 A resposta é sim, de várias maneiras!
 
-# 2) Consultando a n-ésima posição na sequência
+# 2) Consultando a $n-ésima$ posição na sequência
 
 A primeira e mais imediata é utilizar a relação de recorrência
 desenvolvida por Colin Mallows:
@@ -164,13 +164,13 @@ ela armazena os elementos na pilha de recursão.
 Logo nos valores mais baixos de posição do elemento da sequência, você
 irá notar que é mais eficiente gerar a lista toda e depois consultar.
 
-**Novamente, e quando preciso consultar uma posição de ordem alta?
-Existe outra solução?**
-
-# 3) Solução alternativa para consultar a n-ésima posição na sequência
+**Existe outra solução?**
 
 Sim, uma segunda solução é mapear a sequência em uma \"*sequência
 auxiliar*\" que indica a posição do primeiro $n$ na sequencia de Golomb.
+
+# 3) Solução alternativa para consultar a $n-ésima$ posição na sequência
+
 Veja:
 
 -   $a_1 = 1$ → 1 ocorre pela primeira vez (e única) na posição 1;
@@ -188,7 +188,7 @@ Dessa forma, conseguimos mapear a sequência original da seguinte forma:
 | índice do $1^{st}$ (n) | 1 | 2 | 4 | 6 | 9 | 12 | 16 | 20 | 24 | 29 | 34 | 39 | 45 | ... | 
 
 Abaixo, a implementação da função que gera a \"*sequência auxiliar*\" e
-a armazena no vetor indexFirst (índice do primeiro). Ela busca,
+a armazena no vetor \"*indexFirst*\" (índice do primeiro). Ela busca,
 iterativamente o índice do último $n$ e acrescenta a esse índice o
 número de vezes que $n$ ocorre, gerando portanto o índice em que $n+1$
 ocorre primeiro.
