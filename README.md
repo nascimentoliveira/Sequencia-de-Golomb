@@ -1,8 +1,8 @@
 Repositório de programas e scripts utilitários para problemas aplicáveis à Sequência de Solomon Golomb.
 
-Inspired by Problem #10049 Self-describing Sequence in 
+Inspired by Problem #10049 Self-describing Sequence in
 
-https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=990
+https://onlinejudge.org/external/100/10049.pdf
 
 # Sequência Auto Descritiva de Solomon Golomb
 
